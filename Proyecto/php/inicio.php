@@ -97,7 +97,7 @@ $hola = $_SESSION["employeeNumber"];
             <!-- Tarjeta 2 -->
             <?php if ($hola == 1): ?>
             <div class="col col-lg-3 col-mx-auto">
-            <a href="#" class="text-decoration-none">
+            <a href="quotation.php" class="text-decoration-none">
                 <div class="card text-center">
                     <img src="../images/presupuesto.png" class="card-img-top mx-auto mt-4" alt="Opción 2" style="width: 100px; height: auto;">
                     <div class="card-body">

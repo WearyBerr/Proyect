@@ -147,7 +147,7 @@ $hola = $_SESSION["employeeNumber"];
             <div class="col col-lg-3 col-mx-auto">
             <a href="#" class="text-decoration-none">
                 <div class="card text-center">
-                    <img src="licencias.png" class="card-img-top mx-auto mt-4" alt="Opción 1" style="width: 100px; height: auto;">
+                    <img src="../images/licencias.png" class="card-img-top mx-auto mt-4" alt="Opción 1" style="width: 100px; height: auto;">
                     <div class="card-body">
                         <h5 class="card-title">Ordenes de Compra</h5>
                         <p class="card-text">Enviar o gestionar requisiciones</p>
@@ -160,7 +160,7 @@ $hola = $_SESSION["employeeNumber"];
             <div class="col col-lg-3 col-mx-auto">
             <a href="#" class="text-decoration-none">
                 <div class="card text-center">
-                    <img src="efectivo.png" class="card-img-top mx-auto mt-4" alt="Opción 2" style="width: 100px; height: auto;">
+                    <img src="../images/efectivo.png" class="card-img-top mx-auto mt-4" alt="Opción 2" style="width: 100px; height: auto;">
                     <div class="card-body">
                         <h5 class="card-title">Pagos</h5>
                         <p class="card-text">Ver y agregar cotizaciones</p>
@@ -171,7 +171,7 @@ $hola = $_SESSION["employeeNumber"];
             <!-- Tarjeta 3 -->
             <div class="col col-lg-3">
                 <div class="card text-center">
-                    <img src="usuario.png" class="card-img-top mx-auto my-4" alt="Opción 3" style="width: 100px; height: auto;">
+                    <img src="../images/usuario.png" class="card-img-top mx-auto my-4" alt="Opción 3" style="width: 100px; height: auto;">
                     <div class="card-body">
                         <h5 class="card-title">Perfil</h5>
                         <p class="card-text">Descripción breve</p>
@@ -181,7 +181,7 @@ $hola = $_SESSION["employeeNumber"];
 
             <div class="col col-lg-3">
                 <div class="card text-center">
-                    <img src="feria-de-trabajo.png" class="card-img-top mx-auto mt-4" alt="Opción 3" style="width: 100px; height: auto;">
+                    <img src="../images/feria-de-trabajo.png" class="card-img-top mx-auto mt-4" alt="Opción 3" style="width: 100px; height: auto;">
                     <div class="card-body">
                         <h5 class="card-title">Empleados</h5>
                         <p class="card-text">Descripción breve</p>

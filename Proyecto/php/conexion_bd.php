@@ -9,6 +9,6 @@ $base_datos = "celora"; // Nombre de la base de datos
 
 
 
-$conexion = new mysqli($host, $usuario, $contrasena, $base_datos, "");
+$conexion = new mysqli($host, $usuario, $contrasena, $base_datos);
 
 ?>

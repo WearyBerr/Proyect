@@ -125,7 +125,7 @@
         <h5 class="footer-title">Links</h5>
         <ul class="list-unstyled">
           <li><a href="#">Products</a></li>
-          <li><a href="http://localhost:9000/Proyecto/QuiS.php">Who we are?</a></li>
+          <li><a href="http://localhost/Proyecto/php/QuiS.php">Who we are?</a></li>
           <li><a href="#">Contact us</a></li>
         </ul>
       </div>

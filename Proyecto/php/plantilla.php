@@ -17,7 +17,7 @@ if (empty($_SESSION["employeeNumber"])) {
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
    
-    <link href="css/estilosInicio.css" rel="stylesheet" >
+    <link href="../css/estilosInicio.css" rel="stylesheet" >
 
     <style>
         body {
@@ -44,7 +44,7 @@ if (empty($_SESSION["employeeNumber"])) {
   <div class="container-fluid d-flex align-items-center justify-content-between">
     <!-- Logo -->
     <a class="navbar-brand d-flex align-items-center" href="#">
-      <img src="logoNoL.png" alt="Bootstrap" width="90" class="me-2 mt-n1 mb-n1"></a>
+      <img src="../images/logoNoL.png" alt="Bootstrap" width="90" class="me-2 mt-n1 mb-n1"></a>
 
     <!-- Texto centrado -->
     <ul class="navbar-nav mx-auto">

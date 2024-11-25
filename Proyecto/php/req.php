@@ -17,7 +17,7 @@ if (empty($_SESSION["employeeNumber"])) {
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
    
-    <link href="css/estilosReq.css" rel="stylesheet" >
+    <link href="../css/estilosReq.css" rel="stylesheet" >
 
 </head>
 <body>
@@ -27,7 +27,7 @@ if (empty($_SESSION["employeeNumber"])) {
   <div class="container-fluid d-flex align-items-center justify-content-between">
     <!-- Logo -->
     <a class="navbar-brand d-flex align-items-center" href="#">
-      <img src="logoNoL.png" alt="Bootstrap" width="90" class="me-2 mt-n1 mb-n1"></a>
+      <img src="../images/logoNoL.png" alt="Bootstrap" width="90" class="me-2 mt-n1 mb-n1"></a>
 
     <!-- Texto centrado -->
     <ul class="navbar-nav mx-auto">
@@ -266,67 +266,15 @@ function obtenerProductos($conexion) {
             }
         });
     </script>
-
-
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-    </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</div>
     <!-- Footer -->
     <footer class="text-center py-3 border-top">
         <small>&copy; 2024 Empresa. Todos los derechos reservados.</small>
     </footer>
-
-
-
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"></script>
 <script src="js/funcReq.js"></script>
-
-
 </body> 
 </html>

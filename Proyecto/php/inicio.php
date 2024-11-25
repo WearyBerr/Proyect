@@ -19,7 +19,7 @@ $hola = $_SESSION["employeeNumber"];
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
    
-    <link href="css/estilosInicio.css" rel="stylesheet" >
+    <link href="../css/estilosInicio.css" rel="stylesheet" >
 
     <style>
         body {
@@ -46,7 +46,7 @@ $hola = $_SESSION["employeeNumber"];
   <div class="container-fluid d-flex align-items-center justify-content-between">
     <!-- Logo -->
     <a class="navbar-brand d-flex align-items-center" href="#">
-      <img src="logoNoL.png" alt="Bootstrap" width="80" class="me-2">CelorA
+      <img src="../images/logoNoL.png" alt="Bootstrap" width="80" class="me-2">CelorA
     </a>
 
     <!-- Texto centrado -->
@@ -85,7 +85,7 @@ $hola = $_SESSION["employeeNumber"];
             <div class="col col-lg-3 col-mx-auto">
             <a href="req.php" class="text-decoration-none">
                 <div class="card text-center">
-                    <img src="expediente.png" class="card-img-top mx-auto mt-4" alt="Opción 1" style="width: 100px; height: auto;">
+                    <img src="../images/expediente.png" class="card-img-top mx-auto mt-4" alt="Opción 1" style="width: 100px; height: auto;">
                     <div class="card-body">
                         <h5 class="card-title">Requisiciones</h5>
                         <p class="card-text">Enviar o gestionar requisiciones</p>
@@ -99,7 +99,7 @@ $hola = $_SESSION["employeeNumber"];
             <div class="col col-lg-3 col-mx-auto">
             <a href="#" class="text-decoration-none">
                 <div class="card text-center">
-                    <img src="presupuesto.png" class="card-img-top mx-auto mt-4" alt="Opción 2" style="width: 100px; height: auto;">
+                    <img src="../images/presupuesto.png" class="card-img-top mx-auto mt-4" alt="Opción 2" style="width: 100px; height: auto;">
                     <div class="card-body">
                         <h5 class="card-title">Cotizaciones</h5>
                         <p class="card-text">Ver y agregar cotizaciones</p>
@@ -112,7 +112,7 @@ $hola = $_SESSION["employeeNumber"];
             <!-- Tarjeta 3 -->
             <div class="col col-lg-3">
                 <div class="card text-center">
-                    <img src="camion-de-reparto.png" class="card-img-top mx-auto mt-4 mb-n5" alt="Opción 3" style="width: 100px; height: auto;">
+                    <img src="../images/camion-de-reparto.png" class="card-img-top mx-auto mt-4 mb-n5" alt="Opción 3" style="width: 100px; height: auto;">
                     <div class="card-body">
                         <h5 class="card-title">Proveedores</h5>
                         <p class="card-text">Descripción breve</p>
@@ -122,7 +122,7 @@ $hola = $_SESSION["employeeNumber"];
 
             <div class="col col-lg-3">
                 <div class="card text-center">
-                    <img src="caja-del-paquete.png" class="card-img-top mx-auto mt-4" alt="Opción 3" style="width: 100px; height: auto;">
+                    <img src="../images/caja-del-paquete.png" class="card-img-top mx-auto mt-4" alt="Opción 3" style="width: 100px; height: auto;">
                     <div class="card-body">
                         <h5 class="card-title">Productos</h5>
                         <p class="card-text">Descripción breve</p>

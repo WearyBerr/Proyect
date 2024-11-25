@@ -16,11 +16,8 @@ $hola = $_SESSION["employeeNumber"];
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Título de tu página</title>
     
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-   
     <link href="../css/estilosInicio.css" rel="stylesheet" >
-
     <style>
         body {
             background-color: #ffffff;
@@ -38,6 +35,7 @@ $hola = $_SESSION["employeeNumber"];
             transform: scale(1.05);
         }
     </style>
+        <link rel="icon" href="../images/logoCAB.png" type="images/png">
 </head>
 <body>
 
@@ -45,7 +43,7 @@ $hola = $_SESSION["employeeNumber"];
 <nav class="navbar navbar-expand-lg">
   <div class="container-fluid d-flex align-items-center justify-content-between">
     <!-- Logo -->
-    <a class="navbar-brand d-flex align-items-center" href="#">
+    <a class="navbar-brand d-flex align-items-center" href="http://localhost/Proyecto/php/CelorA.php">
       <img src="../images/logoNoL.png" alt="Bootstrap" width="80" class="me-2">CelorA
     </a>
 

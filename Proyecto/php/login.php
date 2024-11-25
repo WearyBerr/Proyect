@@ -7,12 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página de Login</title>
     <link rel="stylesheet" href="../css/estilosLogin.css">
+    <link rel="icon" href="../images/logoCAB.png" type="images/png">
 </head>
 <body>
 
     <!-- Barra de navegación -->
     <div class="navbar">
+        <a href="http://localhost/Proyecto/php/CelorA.php">
         <img src="../images/logoCAB.png" alt="Logo">
+        </a>
         <h1>CelorA</h1>
     </div>
 

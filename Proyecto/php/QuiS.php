@@ -12,8 +12,6 @@
     crossorigin="anonymous">
     </script>
     <link rel="icon" href="../images/logoCAB.png" type="images/png">
-
-</head>
 <body>
 <nav class="navbar navbar-expand-lg">
   <div class="container-fluid">

@@ -18,7 +18,7 @@ if (empty($_SESSION["employeeNumber"])) {
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
    
     <link href="../css/estilosInicio.css" rel="stylesheet" >
-
+    <link rel="icon" href="../images/logoCAB.png" type="images/png">
     <style>
         body {
             background-color: #ffffff;

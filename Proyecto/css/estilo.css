@@ -106,48 +106,77 @@ section{
   max-height: 900px; /* Ajusta la altura máxima de las imágenes */
   object-fit: cover; /* Recorta las imágenes para que se vean bien sin deformarse */
 }
-.card.conte img {
-  height: 200px; /* Establece una altura uniforme */
-  object-fit: cover; /* Recorta la imagen para ajustarse a las dimensiones */
-  width: 100%; /* Asegúrate de que las imágenes ocupen todo el ancho */
-}
-/* Ajustes para dispositivos pequeños */
-@media (max-width: 768px) {
-  #carouselExampleIndicators img {
-    height: 300px; /* Menor altura en pantallas pequeñas */
-  }
-}
 .card.conte {
-    display: flex;
-    flex-direction: column; /* Asegura que los elementos dentro de la tarjeta se apilen de forma vertical */
-    width: 25%;
-    margin: 10px;
-    background-color: white; /* Asegura que el fondo sea blanco, puedes cambiarlo si es necesario */
-    border-radius: 8px; /* Bordes redondeados */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para darle más profundidad */
-  }
-  
-#cant{
-  margin-top: 10px;
-}
-.card-img-top{
-height: 100%;
-width: auto;
-}
-.card-body {
-  flex-grow: 1; /* Hace que el contenido de la tarjeta ocupe el espacio disponible */
   display: flex;
-  flex-direction: column;
-  justify-content: space-between; /* Distribuye el contenido de la tarjeta */
-  font-size: 1.2rem;
-  margin-bottom: 10px; /* Asegura que haya espacio debajo del título */
+  flex-direction: column; /* Elementos apilados verticalmente */
+  width: 25%; /* Ancho de cada tarjeta */
+  margin: 10px;
+  background-color: white; /* Fondo blanco */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+  max-width: 300px; /* Ancho máximo para evitar tarjetas muy grandes */
+  flex: 1 1 calc(33.333% - 20px); /* Ajuste flexible */
 }
-.card-body p {
-  flex-grow: 1; /* Permite que el texto ocupe el espacio disponible */
+
+.card.conte img {
+  height: 200px; /* Altura fija */
+  object-fit: cover; /* Recorte para mantener proporciones */
+  width: 100%; /* Imagen ocupa todo el ancho */
+  border-radius: 8px 8px 0 0; /* Bordes redondeados superiores */
 }
+
+#cant {
+  display: flex;
+  flex-wrap: wrap; /* Permite que las tarjetas salten de línea */
+  justify-content: center; /* Centra las tarjetas */
+  gap: 20px; /* Espaciado entre tarjetas */
+  margin-top: 20px; /* Espaciado superior */
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column; /* Organiza verticalmente */
+  justify-content: space-between; /* Espaciado entre contenido */
+  padding: 15px; /* Espaciado interno */
+  flex-grow: 1; /* Ocupa el espacio restante */
+}
+
+.card-title {
+  font-size: 1.5rem; /* Tamaño de título */
+  margin-bottom: 10px; /* Espaciado inferior */
+  color: #333; /* Color del texto */
+}
+
+.card-text {
+  font-size: 1rem; /* Tamaño de texto */
+  color: #555; /* Color del texto */
+  flex-grow: 1; /* Ocupa el espacio disponible */
+}
+
 .card-body .btn {
-  margin-top: 10px;
+  margin-top: 10px; /* Espaciado superior */
+  font-size: 1rem; /* Tamaño del botón */
 }
+
+/* Estilo para pantallas pequeñas */
+@media (max-width: 768px) {
+  .conte {
+    flex: 1 1 calc(100% - 20px); /* Ocupa todo el ancho en pantallas pequeñas */
+  }
+
+  .card-title {
+    font-size: 1.2rem; /* Reduce el tamaño del título */
+  }
+
+  .card-text {
+    font-size: 0.9rem; /* Reduce el tamaño del texto */
+  }
+
+  .btn {
+    font-size: 0.8rem; /* Reduce el tamaño del botón */
+  }
+}
+
 
 /* pie de página */
 .footer-custom {

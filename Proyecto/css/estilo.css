@@ -109,13 +109,14 @@ section{
 .card.conte {
   display: flex;
   flex-direction: column; /* Elementos apilados verticalmente */
-  width: 25%; /* Ancho de cada tarjeta */
-  margin: 10px;
+  width: 40%; /* Incrementa el ancho de cada tarjeta */
+  margin: 18px;
   background-color: white; /* Fondo blanco */
   border-radius: 8px; /* Bordes redondeados */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
-  max-width: 300px; /* Ancho máximo para evitar tarjetas muy grandes */
+  max-width: 600px; /* Aumenta el ancho máximo */
   flex: 1 1 calc(33.333% - 20px); /* Ajuste flexible */
+  min-height: 600px;
 }
 
 .card.conte img {
@@ -176,7 +177,6 @@ section{
     font-size: 0.8rem; /* Reduce el tamaño del botón */
   }
 }
-
 
 /* pie de página */
 .footer-custom {

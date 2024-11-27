@@ -1,0 +1,172 @@
+:root,
+[data-bs-theme=light] {
+  --bs-blue: #0d6efd;
+  --bs-yellow: #ffc107;
+  --bs-green: #198754;
+  --bs-teal: #20c997;
+  --bs-cyan: #0dcaf0;
+  --bs-black: #000;
+  --bs-white: #fff;
+  --bs-gray: #6c757d;
+  --bs-gray-dark: #343a40;
+  --v5: #f0f0f0;
+  --v6: #519668;
+  --v7: #f5f5dc;
+  --v8: #45b96d;
+  --v8: #50c878;
+}
+/*Barra de Navegacion*/
+.navbar{
+    background-color: var(--v8);
+    padding: 0.5rem 1rem; 
+    height: auto;   
+}
+/* Cambiar color de los enlaces de navegación */
+.navbar .navbar-nav .nav-link {
+  color: var(--v7); /* Cambia al color deseado */
+}
+
+/* Cambiar el color al pasar el mouse */
+.navbar .navbar-nav .nav-link:hover {
+  color: var(--bs-black); /* Cambia al color deseado */
+}
+.navbar-brand {
+    display: flex;        /* Asegura que el logo esté centrado */
+    align-items: start;  /* Centra verticalmente */
+    color:#f0f0f0;      
+  }
+  .logo-navbar {
+    max-height: 60px; /* Controla la altura máxima */
+    width: auto;      /* Mantiene proporciones */
+  }
+.btn-custom {
+    background-color: #d3d3d3; /* Color inicial */
+    border: none;
+    color: var(--v5);
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    font-size: 1rem;
+    transition:background-color .3s ease, transform 0.2s ease; /* Transición para color y escala */
+}
+.btn-custom:hover {
+    background-color: #c0c0c0; /* Un gris más oscuro al pasar el mouse */
+}
+.btn-custom:active {
+  transform: scale(0.95);
+  border:2px solid #000;
+  color: #000;
+}
+
+/* Estilo para la sección del título */
+.section-title {
+    font-size: 2.5rem; /* Tamaño grande para el título */
+    font-weight: bold;
+    text-align: center; /* Centrado */
+    color: #333;
+    margin: 30px 20px; /* Espaciado entre la barra y los cuadros */
+  }
+  
+  /* Estilos existentes para los cuadros */
+  #products-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Espaciado entre los cuadros */
+    margin-top: 20px;
+  }
+  
+  .list-item {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Espaciado entre imagen y contenido */
+    background-color: #f8f9fa;
+    padding: 20px; /* Separación interna dentro del cuadro */
+    margin: 0 20px; /* Separación de 20px con las orillas del contenedor */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .list-img {
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .list-content {
+    flex-grow: 1;
+  }
+  
+  .list-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .list-description {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  /* Ajustes para pantallas pequeñas */
+  @media (max-width: 768px) {
+    .list-item {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .list-img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .list-title {
+      font-size: 1.5rem;
+    }
+  
+    .list-description {
+      font-size: 1rem;
+    }
+  
+    .section-title {
+      font-size: 2rem; /* Tamaño del título reducido en móviles */
+    }
+  }
+  
+
+/* pie de página */
+.footer-custom {
+    background-color: var(--v8); /* Color de fondo desde las variables */
+    color: var(--v7); /* Color del texto */
+    font-size: 0.9rem;
+  }
+  
+  .footer-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .footer-custom ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  .footer-custom ul li a {
+    text-decoration: none;
+    color: var(--v7); /* Mismo color que el texto */
+  }
+  
+  .footer-custom ul li a:hover {
+    color: var(--bs-black); /* Cambia de color al pasar el mouse */
+  }
+  
+  .social-icon {
+    text-decoration: none;
+    color: var(--v7);
+    font-weight: bold;
+  }
+  
+  .social-icon:hover {
+    color: var(--bs-black);
+  }

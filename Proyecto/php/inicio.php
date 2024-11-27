@@ -103,13 +103,14 @@ $hola = $_SESSION["employeeNumber"];
                         <p class="card-text">Ver y agregar cotizaciones</p>
                     </div>
                 </div>
-      </a>
+            </a>
             </div>
             <?php endif; ?>
 
             <!-- Tarjeta 3 -->
             <div class="col col-lg-3">
                 <div class="card text-center">
+                    <a href=""></a>
                     <img src="../images/camion-de-reparto.png" class="card-img-top mx-auto mt-4 mb-n5" alt="Opción 3" style="width: 100px; height: auto;">
                     <div class="card-body">
                         <h5 class="card-title">Proveedores</h5>

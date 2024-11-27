@@ -1,4 +1,3 @@
-
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -109,7 +108,7 @@ section{
 .card.conte {
   display: flex;
   flex-direction: column; /* Elementos apilados verticalmente */
-  width: 40%; /* Incrementa el ancho de cada tarjeta */
+  width: 30%; /* Incrementa el ancho de cada tarjeta */
   margin: 18px;
   background-color: white; /* Fondo blanco */
   border-radius: 8px; /* Bordes redondeados */

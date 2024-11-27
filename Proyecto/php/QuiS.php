@@ -27,7 +27,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav me-auto">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="https://www.instagram.com/cristiano/">Products</a>
+          <a class="nav-link active" aria-current="page" href="http://localhost/Proyecto/php/products.php">Products</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" href="http://localhost/Proyecto/php/QuiS.php">Who are we?</a>
